@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 
 
 app.get("/", (req, res) => {
-  return res.send("<h2>Hi theressssss</h2>");
+  return res.send("<h2>Hi there</h2>");
 });
 
 
